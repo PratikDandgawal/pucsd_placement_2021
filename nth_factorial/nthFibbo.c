@@ -8,6 +8,10 @@ int fib(int n)
 }
 int main()
 {
-  int n=9;
-  pri
+  int n;
+  printf("Enter the number: ");
+  scanf("%d", &n);
+  
+  printf("F(n)=%d",fib(n));
+  return 0;
 }
